@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/colorSplash"
+    android:layout_centerVertical="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorSplash">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/world_white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Let's start to generate message !"
+            android:textColor="#ffffff"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:layout_marginBottom="20dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/smartphone_start"
+            android:layout_gravity="center"/>
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="GET STARTED"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/my_button_started"
+
+            android:id="@+id/btnStart" />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="GOC - SMS Gateway Support Tech.\n(Generate Message)"
+            android:textColor="#ffffff"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+</RelativeLayout>
+    </ScrollView>
